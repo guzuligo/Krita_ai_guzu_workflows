@@ -1,6 +1,6 @@
 {
-  "last_node_id": 100,
-  "last_link_id": 203,
+  "last_node_id": 107,
+  "last_link_id": 222,
   "nodes": [
     {
       "id": 13,
@@ -16,7 +16,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 19,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -63,7 +63,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 26,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -104,7 +104,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -143,7 +143,7 @@
         98
       ],
       "flags": {},
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -200,7 +200,7 @@
         26
       ],
       "flags": {},
-      "order": 20,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -240,7 +240,7 @@
         26
       ],
       "flags": {},
-      "order": 23,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -281,7 +281,7 @@
         26
       ],
       "flags": {},
-      "order": 35,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -322,7 +322,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 27,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -363,7 +363,7 @@
         26
       ],
       "flags": {},
-      "order": 34,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -402,7 +402,7 @@
         78
       ],
       "flags": {},
-      "order": 45,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -501,7 +501,7 @@
         46
       ],
       "flags": {},
-      "order": 57,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -583,7 +583,7 @@
         26
       ],
       "flags": {},
-      "order": 33,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -622,7 +622,7 @@
         26
       ],
       "flags": {},
-      "order": 21,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -663,7 +663,7 @@
         46
       ],
       "flags": {},
-      "order": 18,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -704,7 +704,7 @@
         334
       ],
       "flags": {},
-      "order": 55,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -791,7 +791,7 @@
       },
       "widgets_values": [
         "enable",
-        0,
+        685901891293280,
         "randomize",
         20,
         8,
@@ -816,7 +816,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -868,7 +868,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -906,251 +906,6 @@
       ]
     },
     {
-      "id": 17,
-      "type": "easy forLoopStart",
-      "pos": [
-        2575.00341796875,
-        1484.8841552734375
-      ],
-      "size": [
-        210,
-        114
-      ],
-      "flags": {},
-      "order": 50,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "initial_value1",
-          "type": "*",
-          "link": 35,
-          "shape": 7
-        },
-        {
-          "name": "total",
-          "type": "INT",
-          "link": 193,
-          "widget": {
-            "name": "total"
-          }
-        },
-        {
-          "name": "initial_value2",
-          "type": "*",
-          "link": 133
-        },
-        {
-          "name": "initial_value3",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "flow",
-          "type": "FLOW_CONTROL",
-          "links": [
-            56
-          ],
-          "slot_index": 0,
-          "shape": 5
-        },
-        {
-          "name": "index",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "value1",
-          "type": "*",
-          "links": [
-            36
-          ],
-          "slot_index": 2
-        },
-        {
-          "name": "value2",
-          "type": "*",
-          "links": [
-            134
-          ],
-          "slot_index": 3
-        },
-        {
-          "name": "value3",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy forLoopStart"
-      },
-      "widgets_values": [
-        1
-      ],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 74,
-      "type": "easy mathInt",
-      "pos": [
-        2477.919677734375,
-        1727.079345703125
-      ],
-      "size": [
-        315,
-        106
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 51,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "a",
-          "type": "INT",
-          "link": 134,
-          "widget": {
-            "name": "a"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            135,
-            136
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy mathInt"
-      },
-      "widgets_values": [
-        0,
-        1,
-        "add"
-      ]
-    },
-    {
-      "id": 38,
-      "type": "easy forLoopEnd",
-      "pos": [
-        3333.22021484375,
-        1588.3553466796875
-      ],
-      "size": [
-        178,
-        86
-      ],
-      "flags": {},
-      "order": 53,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "flow",
-          "type": "FLOW_CONTROL",
-          "link": 56,
-          "shape": 5
-        },
-        {
-          "name": "initial_value1",
-          "type": "*",
-          "link": 43,
-          "shape": 7
-        },
-        {
-          "name": "initial_value2",
-          "type": "*",
-          "link": 136
-        },
-        {
-          "name": "initial_value3",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "value1",
-          "type": "*",
-          "links": [
-            53
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "value2",
-          "type": "*",
-          "links": [
-            137
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "value3",
-          "type": "*",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy forLoopEnd"
-      },
-      "widgets_values": [],
-      "color": "#223",
-      "bgcolor": "#335"
-    },
-    {
-      "id": 75,
-      "type": "easy mathInt",
-      "pos": [
-        3233.1123046875,
-        1828.591552734375
-      ],
-      "size": [
-        315,
-        106
-      ],
-      "flags": {
-        "collapsed": false
-      },
-      "order": 54,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "a",
-          "type": "INT",
-          "link": 137,
-          "widget": {
-            "name": "a"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            138
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy mathInt"
-      },
-      "widgets_values": [
-        0,
-        1,
-        "add"
-      ]
-    },
-    {
       "id": 14,
       "type": "VAEDecode",
       "pos": [
@@ -1162,7 +917,7 @@
         46
       ],
       "flags": {},
-      "order": 56,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1204,7 +959,7 @@
         100
       ],
       "flags": {},
-      "order": 59,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -1231,7 +986,7 @@
         58
       ],
       "flags": {},
-      "order": 49,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1269,7 +1024,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 46,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1307,7 +1062,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 37,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1473,7 +1228,7 @@
         334
       ],
       "flags": {},
-      "order": 48,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1499,7 +1254,7 @@
         {
           "name": "noise_seed",
           "type": "INT",
-          "link": 18,
+          "link": 213,
           "widget": {
             "name": "noise_seed"
           }
@@ -1568,7 +1323,7 @@
       },
       "widgets_values": [
         "enable",
-        0,
+        244775820424290,
         "randomize",
         20,
         8,
@@ -1591,7 +1346,7 @@
         334
       ],
       "flags": {},
-      "order": 52,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -1686,7 +1441,7 @@
       },
       "widgets_values": [
         "enable",
-        0,
+        1032396206354156,
         "randomize",
         20,
         8,
@@ -1709,7 +1464,7 @@
         98
       ],
       "flags": {},
-      "order": 47,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -1840,7 +1595,7 @@
         78
       ],
       "flags": {},
-      "order": 24,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1870,57 +1625,6 @@
       ]
     },
     {
-      "id": 2,
-      "type": "ETN_KritaCanvas",
-      "pos": [
-        1450.2100830078125,
-        1070.617919921875
-      ],
-      "size": [
-        200,
-        100
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            11,
-            179,
-            182
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": null
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "links": [
-            18,
-            133
-          ],
-          "slot_index": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ETN_KritaCanvas"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 97,
       "type": "InpaintModelConditioning",
       "pos": [
@@ -1932,7 +1636,7 @@
         138
       ],
       "flags": {},
-      "order": 39,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2002,7 +1706,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 22,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -2036,98 +1740,6 @@
       ]
     },
     {
-      "id": 3,
-      "type": "ETN_KritaStyle",
-      "pos": [
-        1197.88720703125,
-        1263.7266845703125
-      ],
-      "size": [
-        315,
-        242
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            14
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "links": [
-            15
-          ],
-          "slot_index": 1
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "links": [
-            13
-          ],
-          "slot_index": 2
-        },
-        {
-          "name": "positive prompt",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "negative prompt",
-          "type": "STRING",
-          "links": null
-        },
-        {
-          "name": "sampler name",
-          "type": "COMBO",
-          "links": [
-            80,
-            81
-          ],
-          "slot_index": 5
-        },
-        {
-          "name": "scheduler",
-          "type": "COMBO",
-          "links": [
-            82
-          ],
-          "slot_index": 6
-        },
-        {
-          "name": "steps",
-          "type": "INT",
-          "links": [
-            187
-          ],
-          "slot_index": 7
-        },
-        {
-          "name": "guidance",
-          "type": "FLOAT",
-          "links": [
-            85
-          ],
-          "slot_index": 8
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ETN_KritaStyle"
-      },
-      "widgets_values": [
-        "5. Style",
-        "auto"
-      ]
-    },
-    {
       "id": 58,
       "type": "ETN_KritaSelection",
       "pos": [
@@ -2139,7 +1751,7 @@
         26
       ],
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2171,7 +1783,7 @@
         26
       ],
       "flags": {},
-      "order": 25,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -2207,7 +1819,7 @@
         78
       ],
       "flags": {},
-      "order": 58,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2258,7 +1870,7 @@
         82
       ],
       "flags": {},
-      "order": 41,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2305,7 +1917,7 @@
         154
       ],
       "flags": {},
-      "order": 8,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2341,7 +1953,7 @@
         98
       ],
       "flags": {},
-      "order": 43,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -2400,7 +2012,7 @@
         58
       ],
       "flags": {},
-      "order": 28,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -2444,7 +2056,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 29,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -2486,7 +2098,7 @@
         98
       ],
       "flags": {},
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -2573,7 +2185,7 @@
         154
       ],
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2609,7 +2221,7 @@
         154
       ],
       "flags": {},
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2684,7 +2296,7 @@
         82
       ],
       "flags": {},
-      "order": 40,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2714,7 +2326,7 @@
         150
       ],
       "flags": {},
-      "order": 32,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -2768,7 +2380,7 @@
         154
       ],
       "flags": {},
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2790,6 +2402,510 @@
         1,
         1,
         10
+      ]
+    },
+    {
+      "id": 3,
+      "type": "ETN_KritaStyle",
+      "pos": [
+        1197.88720703125,
+        1263.7266845703125
+      ],
+      "size": [
+        315,
+        242
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            14
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "links": [
+            15
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "links": [
+            13
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "positive prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "negative prompt",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "sampler name",
+          "type": "COMBO",
+          "links": [
+            80,
+            81
+          ],
+          "slot_index": 5
+        },
+        {
+          "name": "scheduler",
+          "type": "COMBO",
+          "links": [
+            82
+          ],
+          "slot_index": 6
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "links": [
+            187
+          ],
+          "slot_index": 7
+        },
+        {
+          "name": "guidance",
+          "type": "FLOAT",
+          "links": [
+            85
+          ],
+          "slot_index": 8
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ETN_KritaStyle"
+      },
+      "widgets_values": [
+        "5. Style",
+        "auto"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "easy forLoopEnd",
+      "pos": [
+        3333.22021484375,
+        1588.3553466796875
+      ],
+      "size": [
+        178,
+        86
+      ],
+      "flags": {},
+      "order": 56,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "flow",
+          "type": "FLOW_CONTROL",
+          "link": 56,
+          "shape": 5
+        },
+        {
+          "name": "initial_value1",
+          "type": "*",
+          "link": 43,
+          "shape": 7
+        },
+        {
+          "name": "initial_value2",
+          "type": "*",
+          "link": 136
+        },
+        {
+          "name": "initial_value3",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "value1",
+          "type": "*",
+          "links": [
+            53
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "value2",
+          "type": "*",
+          "links": [
+            137
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "value3",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy forLoopEnd"
+      },
+      "widgets_values": [],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 75,
+      "type": "easy mathInt",
+      "pos": [
+        3558.902099609375,
+        1646.8199462890625
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 57,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "INT",
+          "link": 137,
+          "widget": {
+            "name": "a"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            138
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "+1",
+      "properties": {
+        "Node name for S&R": "easy mathInt"
+      },
+      "widgets_values": [
+        0,
+        1,
+        "add"
+      ]
+    },
+    {
+      "id": 74,
+      "type": "easy mathInt",
+      "pos": [
+        2710.02783203125,
+        1696.3187255859375
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 54,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "INT",
+          "link": 134,
+          "widget": {
+            "name": "a"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            135,
+            136
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "+1",
+      "properties": {
+        "Node name for S&R": "easy mathInt"
+      },
+      "widgets_values": [
+        0,
+        1,
+        "add"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "easy forLoopStart",
+      "pos": [
+        2552.63232421875,
+        1387.007080078125
+      ],
+      "size": [
+        210,
+        114
+      ],
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "initial_value1",
+          "type": "*",
+          "link": 35,
+          "shape": 7
+        },
+        {
+          "name": "total",
+          "type": "INT",
+          "link": 193,
+          "widget": {
+            "name": "total"
+          }
+        },
+        {
+          "name": "initial_value2",
+          "type": "*",
+          "link": 214
+        },
+        {
+          "name": "initial_value3",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "flow",
+          "type": "FLOW_CONTROL",
+          "links": [
+            56
+          ],
+          "slot_index": 0,
+          "shape": 5
+        },
+        {
+          "name": "index",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "value1",
+          "type": "*",
+          "links": [
+            36
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "value2",
+          "type": "*",
+          "links": [
+            134
+          ],
+          "slot_index": 3
+        },
+        {
+          "name": "value3",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy forLoopStart"
+      },
+      "widgets_values": [
+        1
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 102,
+      "type": "ETN_KritaSendText",
+      "pos": [
+        2504.831787109375,
+        1129.8160400390625
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "*",
+          "link": 209
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "ETN_KritaSendText"
+      },
+      "widgets_values": [
+        "Output2",
+        "text"
+      ]
+    },
+    {
+      "id": 106,
+      "type": "SomethingToString",
+      "pos": [
+        1707.8345947265625,
+        1110.2393798828125
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input",
+          "type": "*",
+          "link": 210
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            208
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SomethingToString"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "ETN_KritaCanvas",
+      "pos": [
+        1437.625732421875,
+        1080.406005859375
+      ],
+      "size": [
+        200,
+        100
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            11,
+            179,
+            182
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [],
+          "slot_index": 2
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            210
+          ],
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ETN_KritaCanvas"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 107,
+      "type": "StringToInt",
+      "pos": [
+        1738.595458984375,
+        1181.55029296875
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 208,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            209,
+            213,
+            214
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringToInt"
+      },
+      "widgets_values": [
+        "0"
       ]
     },
     {
@@ -2929,14 +3045,6 @@
       13,
       2,
       "CLIP"
-    ],
-    [
-      18,
-      2,
-      3,
-      9,
-      4,
-      "INT"
     ],
     [
       21,
@@ -3371,14 +3479,6 @@
       "INT"
     ],
     [
-      133,
-      2,
-      3,
-      17,
-      2,
-      "*"
-    ],
-    [
       134,
       17,
       3,
@@ -3619,7 +3719,47 @@
       "*"
     ],
     [
-      196,
+      208,
+      106,
+      0,
+      107,
+      0,
+      "STRING"
+    ],
+    [
+      209,
+      107,
+      0,
+      102,
+      0,
+      "*"
+    ],
+    [
+      210,
+      2,
+      3,
+      106,
+      0,
+      "*"
+    ],
+    [
+      213,
+      107,
+      0,
+      9,
+      4,
+      "INT"
+    ],
+    [
+      214,
+      107,
+      0,
+      17,
+      2,
+      "*"
+    ],
+    [
+      215,
       3,
       2,
       12,
@@ -3627,7 +3767,7 @@
       "VAE"
     ],
     [
-      197,
+      216,
       3,
       0,
       39,
@@ -3635,7 +3775,7 @@
       "MODEL"
     ],
     [
-      198,
+      217,
       3,
       1,
       4,
@@ -3643,7 +3783,7 @@
       "CLIP"
     ],
     [
-      199,
+      218,
       3,
       1,
       5,
@@ -3651,7 +3791,7 @@
       "CLIP"
     ],
     [
-      200,
+      219,
       3,
       2,
       14,
@@ -3659,7 +3799,7 @@
       "VAE"
     ],
     [
-      201,
+      220,
       3,
       0,
       9,
@@ -3667,7 +3807,7 @@
       "MODEL"
     ],
     [
-      202,
+      221,
       3,
       0,
       18,
@@ -3675,7 +3815,7 @@
       "MODEL"
     ],
     [
-      203,
+      222,
       3,
       2,
       97,
@@ -3689,8 +3829,8 @@
     "ds": {
       "scale": 0.7151828018917811,
       "offset": [
-        175.60011154203832,
-        -1470.381100981421
+        87.5107449726056,
+        -1168.3604156005076
       ]
     },
     "ue_links": [
