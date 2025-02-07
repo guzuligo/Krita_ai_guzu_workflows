@@ -9,3 +9,6 @@ I'm complicating things on this one. But, I am getting good results on some sett
   
 * Krita Lora Info.json  
 Shows the tags of the lora. Example <lora: ryu>  
+
+* tooncrafter07b.json
+Simple implimentation of tooncrafter. Choose two layers and generate to interpolate. You'll find the gif file in the temp file.
